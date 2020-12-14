@@ -7,14 +7,14 @@ The project was done using:
 - html5 and php
 - Postman : colaboration platform for API development
 
-[initialise.php](https://github.com/AmaniUsagi/Rest-API/blob/main/core/initialise.php) defines directories, paths for resources and loads configurations.
-[post.php](https://github.com/AmaniUsagi/Rest-API/blob/main/core/post.php) contains all the functions for manupulating records
+1. [initialise.php](https://github.com/AmaniUsagi/Rest-API/blob/main/core/initialise.php) defines directories, paths for resources and loads configurations.
+2. [post.php](https://github.com/AmaniUsagi/Rest-API/blob/main/core/post.php) contains all the functions for manupulating records.
 
 User can create, retrieve, update and delete records as shown below
 - Specifying the data type to be pushed to db
-![](Screenshots/Inkedcreate_param_LI.JPG)
+![](Screenshots/create_param.PNG)
 - Creating record in db
-![](Screenshots/Inkedcreate_LI.JPG)
+![](Screenshots/create.PNG)
 - Note that the process of creating and updating records are similar. The only difference is that creation uses a POST method while update uses a PUT method.
 - The different functions are separated in indivitual files
 - Retrival uses GET method. To read multiple records use [read.php](https://github.com/AmaniUsagi/Rest-API/blob/main/api/read.php).
@@ -22,7 +22,7 @@ User can create, retrieve, update and delete records as shown below
 - To read a single record use [sread.php](https://github.com/AmaniUsagi/Rest-API/blob/main/api/sread.php). In this case specify the id to retrive.
 ![](Screenshots/read_single.PNG)
 - DELETE
-![](Screenshots/Inkeddelete_LI.JPG)
+![](Screenshots/delete.PNG)
 
 
 How to use?
