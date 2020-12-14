@@ -25,5 +25,5 @@ User can create, retrieve, update and delete records as shown below
 ![](Screenshots/delete.PNG)
 
 
-How to use?
+# How to use?
 - Download and run boy! Its that simple.
