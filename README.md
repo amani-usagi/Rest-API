@@ -1,6 +1,6 @@
 # Rest-API
-A restful service to create, update and delete student records using Postman
-REST (Representational State Transfer) used to take advantage of existing protocols espce=cially http protocols for web APIs.
+A restful service to create, update and delete student records using Postman.
+REST (Representational State Transfer) used to take advantage of existing protocols especially http protocols for web APIs.
 
 The project was done using:
 - mysql database
@@ -11,12 +11,12 @@ The project was done using:
 2. [post.php](https://github.com/AmaniUsagi/Rest-API/blob/main/core/post.php) contains all the functions for manupulating records.
 
 User can create, retrieve, update and delete records as shown below
-- Specifying the data type to be pushed to db
+- Specifying the content type to be pushed to db
 ![](Screenshots/create_param.PNG)
 - Creating record in db
 ![](Screenshots/create.PNG)
 - Note that the process of creating and updating records are similar. The only difference is that creation uses a POST method while update uses a PUT method.
-- The different functions are separated in indivitual files
+- The different functionalities are separated in indivitual files
 - Retrival uses GET method. To read multiple records use [read.php](https://github.com/AmaniUsagi/Rest-API/blob/main/api/read.php).
 ![](Screenshots/read_multi.PNG)
 - To read a single record use [sread.php](https://github.com/AmaniUsagi/Rest-API/blob/main/api/sread.php). In this case specify the id to retrive.
@@ -26,4 +26,4 @@ User can create, retrieve, update and delete records as shown below
 
 
 # How to use?
-- Download and run boy! Its that simple.
+- Download and run it boy! Its that simple.
