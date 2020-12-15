@@ -4,7 +4,7 @@ REST (Representational State Transfer) used to take advantage of existing protoc
 
 The project was done using:
 - mysql database
-- html5 and php
+- php
 - Postman : colaboration platform for API development
 
 1. [initialise.php](https://github.com/AmaniUsagi/Rest-API/blob/main/core/initialise.php) defines directories, paths for resources and loads configurations.
