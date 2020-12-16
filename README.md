@@ -26,4 +26,9 @@ User can create, retrieve, update and delete records as shown below
 
 
 # How to use?
+<<<<<<< Updated upstream
 - Download and run it boy! Its that simple.
+=======
+- Download and run boy! Its that simple.
+- Define your site route in the [initialise.php](https://github.com/AmaniUsagi/Rest-API/blob/main/core/initialise.php) file.
+>>>>>>> Stashed changes

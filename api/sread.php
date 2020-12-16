@@ -12,7 +12,7 @@
     $post->read_single();
 
     $post_arr = array(
-        'id' => $id,
+        //'id' => $id,
         'student_name' => $post->student_name,
         'student_no' => $post->student_no,
         'email' => $post->email,
