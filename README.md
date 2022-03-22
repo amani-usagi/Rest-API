@@ -1,5 +1,5 @@
 # Rest-API
-A restful service to create, update and delete student records using Postman.
+A restful service to create, update and delete student records.
 REST (Representational State Transfer) used to take advantage of existing protocols especially http protocols for web APIs.
 
 The project was done using:
